@@ -1,3 +1,5 @@
 pub mod base;
-pub mod component;
-pub mod target;
+pub mod artifact;
+pub mod player;
+pub mod factory;
+pub mod repository;

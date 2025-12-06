@@ -1,15 +1,4 @@
-use super::base::Id;
-struct Artifact {
-    id: Id<ArtifactType>,
-}
-
-enum ArtifactType {
-    Steel,
-    Wood,
-    Plastic,
-    Seed,
-    Mineral,
-}
+use crate::types::base::Id;
 
 struct Slot {
     id: Id<String>,
